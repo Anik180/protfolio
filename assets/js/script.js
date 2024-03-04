@@ -86,7 +86,7 @@ circular_imgClick[0].addEventListener("click", () => {
 // Dark/ Light Mode Toggle
 function myFunction() {
     var element = document.body;
-    element.classList.toggle("dark-mode");
+    element.classList.toggle("light-mode");
 
     var sunIcon = document.getElementById("sunIcon");
     var moonIcon = document.getElementById("moonIcon");
